@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Couleurs pour le style dans le terminal
+# Couleurs 
 GREEN='\033[1;32m'
 CYAN='\033[1;36m'
 RED='\033[1;31m'
@@ -20,7 +20,7 @@ LOG_CONTENT=$(tail -n 20 "$LOG_FILE")
 echo -e "${CYAN}[*] Réveil de l'Intelligence Artificielle (Mistral Local)...${NC}"
 echo -e "Analyse de la racine du problème en cours...\n"
 
-# Le Prompt de l'Architecte
+# Architect Prompt
 PROMPT="Tu es un ingénieur SRE (Site Reliability Engineering) de niveau expert. 
 Analyse ce log d'erreur système. 
 1. Explique la root cause (cause racine) en une seule phrase courte. 
